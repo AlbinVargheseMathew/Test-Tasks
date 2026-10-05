@@ -6,7 +6,7 @@ const studentName = document.getElementById("studentName")
 const studentList = document.getElementById("studentList")
 
 //task2
-// title.textContent ="Student List";
+title.textContent ="Student List";
 
 //task3
 // const name = studentName.value
