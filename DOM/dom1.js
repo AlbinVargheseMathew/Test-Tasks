@@ -34,11 +34,14 @@ for (let student of students){
 }
 
 //task8
-const heading = document.createElement("h2");
+// const heading = document.createElement("h2");
 // heading.textContent = "Students"
-heading.innerHTML = "Students"
-studentList.append(heading)
-console.log(heading)
+// heading.innerHTML = "Students"
+// studentList.append(heading)
+// console.log(heading)
+
+// studentList.innerHTML=('<h2> Students </h2>')
+// studentList.textContent=('<h2> Students </h2>')
 
 
 
