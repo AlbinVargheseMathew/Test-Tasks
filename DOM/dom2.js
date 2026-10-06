@@ -27,4 +27,9 @@ const student4 = document.createElement("p");
 const s4 = student1.textContent = "Vishnu"
 console.log(s4)
 
+document.body.append(mainTitle)
+document.body.append(students)
 container.append(s1)
+container.append(s2)
+container.append(s3)
+container.append(s4)
