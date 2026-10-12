@@ -31,3 +31,10 @@
 
 
 //3.hallow diamond
+let n=5;
+for(i=i;i<=n;i++){
+    let pattern = "";
+    for(j=1;j<=n-1;j++){
+        pattern += " ";
+    }
+}
