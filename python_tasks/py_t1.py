@@ -21,7 +21,8 @@
 #4
 # a = 12
 # b = 13
-# a = b 
+# a,b = b,a
+# print(a)
 # print(b)
 
 #5
@@ -83,7 +84,7 @@
 #output: 1. False 2. True 3. False
 
 #18
-# ValueError
+# o/p: ValueError
 
 #19
 #a. 19
@@ -131,24 +132,24 @@
 # print(total)
 
 #26
-# True
-# True
-# False
-# True
+# o/p: True
+# o/p: True
+# o/p: False
+# o/p: True
 
 #27
-# True
-# True
-# True
+# o/p: True
+# o/p: True
+# o/p: True
 
 #28
 #and - everything must be true
 #or - atleast one must be true
 
 #29
-#False
-#True
-#False
+# o/p: False
+# o/p: True
+# o/p: False
 
 #30
 # print( 25 > 15)
@@ -157,17 +158,17 @@
 # print( 20 > 10 and 15 < 25)
 
 #31
-# 15
-# 20
-# 6
+# o/p: 15
+# o/p: 20
+# o/p: 6
 
 #32
 # x = x + 5 - creates a brand new memory address
 # uses the same exact address
 
 #33
-# 3
-# 2
+# o/p: 3
+# o/p: 2
 
 #34
 # price = 1000
@@ -176,6 +177,6 @@
 # print(final_price)
 
 #35
-# 31
-# 21
+# o/p: 31
+# o/p: 21
 
