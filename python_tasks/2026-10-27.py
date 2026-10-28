@@ -1,18 +1,20 @@
 
 #1. o/p: {'a': ['apple','ant'] same for b,c,d}
-words=["apple","ant","banana","ball","cat","dog"]
+# words=["apple","ant","banana","ball","cat","dog"]
 
+# result = {}
+# for i in words:
+#     first = i[0]
+#     if result not in words:
+#         result[first] = []
+#     result[first].append(i)
+# print(result)
 
 
 #2. a list of numbers from 1 to 10, remove the number 5 from list
 # num = []
 # for i in range(1,11):
-#     num = i
-#     num.remove(5)
-#     print(num)
-
-# correct Answer
-# num = list(range(1,11))
+#     num.append(i)
 # num.remove(5)
 # print(num)
 
