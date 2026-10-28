@@ -31,9 +31,8 @@ words=["apple","ant","banana","ball","cat","dog"]
 #5. sort a list of tuples based on the 2nd element of each tuple
 #o/p: [('banana', 1), ('date', 2), ('apple', 3), ('cherry', 5)]
 
-# fruits = [('apple', 3), ('banana', 1), ('cherry', 5), ('date', 2)]
+fruits = [('apple', 3), ('banana', 1), ('cherry', 5), ('date', 2)]
 
-# for i in fruits:
 
 
 #6. write a program to flatten a nested list
@@ -59,6 +58,8 @@ words=["apple","ant","banana","ball","cat","dog"]
 dict_a = {'apple': 3, 'banana': 1}
 dict_b = {'cherry': 5, 'date': 2}
 
+print(dict_a + dict_b)
+
 
 #9. a program to count the frquency of each element in a list using a dictionary
 # numbers = [1,2,2,3,3,3,4,4,4,4]
@@ -75,7 +76,7 @@ dict_b = {'cherry': 5, 'date': 2}
 #11. a program to remove all duplicates values from a list while maintaining the order
 #o/p: [3, 1, 2, 4, 5]
 
-[3, 1, 2, 3, 4, 1, 2, 5]
+order = [3, 1, 2, 3, 4, 1, 2, 5]
 
 
 
