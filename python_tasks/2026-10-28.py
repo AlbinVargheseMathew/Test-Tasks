@@ -31,14 +31,16 @@
 # print(a)
 
 #5. to find the key of max value in a dict
-my_dict = {'a':15,'b':20,'c':5}
-# a = sorted()
+# my_dict = {'a':15,'b':20,'c':5}
+# a = max(my_dict.values())
+# for k,v in my_dict.items():
+#     if v == a:
+#         print(f"{k}:{v}")
 
 
 #6. to find the longest word in list of words
-words = ['apple','banana','cherry','pineapple','strawberry']
-
-# longest = max[words]
+# words = ['apple','banana','cherry','pineapple','strawberry']
+# longest = max(words)
 # print(longest)
 
 
