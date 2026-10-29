@@ -44,9 +44,14 @@
 # print(longest)
 
 
-#7. a program to remove all the occurences of a specific element from a list
-numbers = [1,2,3,2,4,2,5]
-value_to_remove = 2
+#7. a program to remove all the occurences of a specific element from a list, lets do 2
+# numbers = [1,2,3,2,4,2,5]
+# value_to_remove = 2
+# for i in numbers:
+#     if i == value_to_remove:
+#         numbers.remove(value_to_remove)
+# print(numbers)
+
 
 
 #8. a program to count unique elements in a list
