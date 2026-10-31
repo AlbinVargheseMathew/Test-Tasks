@@ -30,6 +30,7 @@
 # print(list(f))
 
 
+
 #5. sort a list of tuples based on the 2nd element of each tuple
 #o/p: [('banana', 1), ('date', 2), ('apple', 3), ('cherry', 5)]
 
@@ -42,7 +43,10 @@ fruits = [('apple', 3), ('banana', 1), ('cherry', 5), ('date', 2)]
 
 # nest_list = [[1, 2, 3], [4, 5], [6], [7, 8, 9, 10]]
 # a = []
-# for i in
+# for i in nest_list:
+#     for j in i:
+#         a.append(j)
+# print(a)
 
 
 #7. a program to create a tuple of numbers from 1 to 10 and then slice 
@@ -57,10 +61,11 @@ fruits = [('apple', 3), ('banana', 1), ('cherry', 5), ('date', 2)]
 #8. write a program to merge two dict
 #o/p: {'apple': 3, 'banana': 1, 'cherry': 5, 'date': 2}
 
-dict_a = {'apple': 3, 'banana': 1}
-dict_b = {'cherry': 5, 'date': 2}
-
-print(dict_a + dict_b)
+# dict_a = {'apple': 3, 'banana': 1}
+# dict_b = {'cherry': 5, 'date': 2}
+# new_dict = dict_a | dict_b
+# # new_dict = dict_a.update(dict_b)
+# print(new_dict)
 
 
 #9. a program to count the frquency of each element in a list using a dictionary
@@ -78,7 +83,12 @@ print(dict_a + dict_b)
 #11. a program to remove all duplicates values from a list while maintaining the order
 #o/p: [3, 1, 2, 4, 5]
 
-order = [3, 1, 2, 3, 4, 1, 2, 5]
+# order = [3, 1, 2, 3, 4, 1, 2, 5]
+# x = []
+# for i in order:
+#     if i not in x:
+#         x.append(i)
+# print(x)
 
 
 
