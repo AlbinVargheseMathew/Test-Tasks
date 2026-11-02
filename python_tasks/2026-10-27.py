@@ -1,14 +1,14 @@
 
 #1. o/p: {'a': ['apple','ant'] same for b,c,d}
-# words=["apple","ant","banana","ball","cat","dog"]
+words=["apple","ant","banana","ball","cat","dog"]
 
-# result = {}
-# for i in words:
-#     first = i[0]
-#     if result not in words:
-#         result[first] = []
-#     result[first].append(i)
-# print(result)
+result = {}
+for i in words:
+    first = i[0]
+    if first not in result:
+        result[first] = []
+    result[first].append(i)
+print(result)
 
 
 #2. a list of numbers from 1 to 10, remove the number 5 from list
