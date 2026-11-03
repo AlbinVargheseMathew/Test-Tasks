@@ -3,6 +3,7 @@
 # eg = ()
 # for i in numbers:
 #     eg = (i,) + eg
+#     #doesn't concantenate cuz it become an int
 # print(eg)
 
 
@@ -63,7 +64,7 @@
 # print(largest - smallest)
 
 
-#6. Find the second occurrence of an element
+#6. Find the second occurrence index of an element
 # numbers = (1, 2, 3, 2, 4, 2, 5)
 # target = 2
 # count = 0
@@ -98,6 +99,6 @@
 # print(a ^ b)
 
 #10. Find elements that are present in a but not in b
-a = {1, 2, 3, 4, 5}
-b = {3, 4, 5, 6, 7}
-print(a - b)
+# a = {1, 2, 3, 4, 5}
+# b = {3, 4, 5, 6, 7}
+# print(a - b)
