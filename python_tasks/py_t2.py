@@ -14,15 +14,24 @@ class product():
 
     def calculate_total(self):
         print("Total Stock Value:", self.price * self.quantity)
+        print(" ")
 
     def update_price(self, new_price):
-        self.new_price = new_price
-        pass
+        self.price = new_price
+        print("\n Price Updated Successfully ")
+        print("New Price: ",new_price)
 
     def purchase(quantity):
-        pass
+        if quantity <= 0:
+            print("Please enter a valid quantity")
+        # elif 
+        # condtiton to decrese stock
+        # conndtion to check if the input exceeds stocks
+
 
     def restock(quantity):
+        # increase the stock
+        # 
         pass
 
 
@@ -37,3 +46,6 @@ product2.calculate_total()
 product2 = product("Headphones", "P103", 1500, 20)
 product2.display_product()
 product2.calculate_total()
+
+print("=======")
+product1.update_price(90000)
