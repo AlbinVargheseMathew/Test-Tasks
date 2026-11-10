@@ -2,12 +2,20 @@
 # Input: n = 123
 # Output: 1
 
-def firstDigit(num):
-    first = 0
 
-    
+# num = input("Enter the number: ")
+# def firstDigit(num):
+#     first = ""
 
-    
+#     for i in num:
+#         first=i
+#         break
+#     print(first)
+
+# firstDigit(num)    
+        
+
+
 
 
 # expontentially 
