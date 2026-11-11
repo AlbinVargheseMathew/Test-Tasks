@@ -15,61 +15,94 @@ class TravelBooking(ABC):
     def display_booking_details(self):
         pass
 
-    # @abstractmethod
-    # def calculate_discount(self):
-    #     pass
+    @abstractmethod
+    def calculate_discount(self, total_fare):
+        pass
 
 class BusBooking(TravelBooking):
-    # def __init__(self, passenger_name, number_of_tickets):
-        # super().__init__(passenger_name, number_of_tickets)
-        # self.price = 500
+    def __init__(self, passenger_name, number_of_tickets):
+        super().__init__(passenger_name, number_of_tickets)
+        self.price = 500
 
     def calculate_fare(self):
-        # self.total = self.price * self.number_of_tickets
-        return 500
+        return self.price * self.number_of_tickets
+        # return 500
+
+    def calculate_discount(self, total_fare):
+        return total_fare * (5/100) #5% discount
 
 
     def display_booking_details(self):
-        fare = self.calculate_fare()
-        print("Bus Booking Details")
-        print("Passenger Name: ",self.passenger_name)
-        print("Number of Tickets: ",self.number_of_tickets)
-        print("Price Per Ticket: Rs.",fare)
-        print("Total fare: Rs.", fare * self.number_of_tickets )
+        total_fare = self.calculate_fare()
+        discount = self.calculate_discount(total_fare)
+        final_fare = total_fare - discount
+
+        print("\n------- BOOKING DETAILS -------\n")
+        print(f"Passenger Name: {self.passenger_name}")
+        print(f"Travel Type: Bus")
+        print(f"Number of Tickets: {self.number_of_tickets}")
+        print(f"Price Per Ticket: Rs.{self.price}")
+        print(f"Original Fare: Rs.{total_fare}")
+        print(f"Discount (5%): Rs.{discount}")
+        print(f"Final Payable Amount: Rs.{final_fare}")
+        print("\nBooking Successful!")
+
+
+
 
 class TrainBooking(TravelBooking):
-    # def __init__(self, passenger_name, number_of_tickets):
-    #     super().__init__(passenger_name, number_of_tickets)
-    #     self.price = 800
+    def __init__(self, passenger_name, number_of_tickets):
+        super().__init__(passenger_name, number_of_tickets)
+        self.price = 800
 
     def calculate_fare(self):
-        # self.total = self.price * self.number_of_tickets
-        return 800
+        return self.price * self.number_of_tickets
+        # return 800
+    
+    def calculate_discount(self, total_fare):
+        return total_fare * (10/100)
     
     def display_booking_details(self):
-        fare = self.calculate_fare()
-        print("Train Booking Details")
-        print("Passenger Name: ",self.passenger_name)
-        print("Number of Tickets: ",self.number_of_tickets)
-        print("Price Per Ticket: Rs.", fare)
-        print("Total fare: Rs.", fare * self.number_of_tickets  )
+        total_fare = self.calculate_fare()
+        discount = self.calculate_discount(total_fare)
+        final_fare = total_fare - discount
+
+        print("\n------- BOOKING DETAILS -------\n")
+        print(f"Passenger Name: {self.passenger_name}")
+        print(f"Travel Type: Train")
+        print(f"Number of Tickets: {self.number_of_tickets}")
+        print(f"Price Per Ticket: Rs.{self.price}")
+        print(f"Original Fare: Rs.{total_fare}")
+        print(f"Discount (10%): Rs.{discount}")
+        print(f"Final Payable Amount: Rs.{final_fare}")
+        print("\nBooking Successful!")
 
 class FlightBooking(TravelBooking):
-    # def __init__(self, passenger_name, number_of_tickets):
-    #     super().__init__(passenger_name, number_of_tickets)
-    #     self.price = 3000
+    def __init__(self, passenger_name, number_of_tickets):
+        super().__init__(passenger_name, number_of_tickets)
+        self.price = 3000
 
     def calculate_fare(self):
-        # self.total = self.price * self.number_of_tickets
-        return 3000
+        return self.price * self.number_of_tickets
+        # return 3000
+    
+    def calculate_discount(self, total_fare):
+        return total_fare * (8/100)
         
     def display_booking_details(self):
-        fare = self.calculate_fare()
-        print("Flight Booking Details")
-        print("Passenger Name: ",self.passenger_name)
-        print("Number of Tickets: ",self.number_of_tickets)
-        print("Price Per Ticket: Rs.", fare)
-        print("Total fare: Rs.", fare * self.number_of_tickets )
+        total_fare = self.calculate_fare()
+        discount = self.calculate_discount(total_fare)
+        final_fare = total_fare - discount
+
+        print("\n------- BOOKING DETAILS -------\n")
+        print(f"Passenger Name: {self.passenger_name}")
+        print(f"Travel Type: Flight")
+        print(f"Number of Tickets: {self.number_of_tickets}")
+        print(f"Price Per Ticket: Rs.{self.price}")
+        print(f"Original Fare: Rs.{total_fare}")
+        print(f"Discount (8%): Rs.{discount}")
+        print(f"Final Payable Amount: Rs.{final_fare}")
+        print("\nBooking Successful!")
     
 
 print("WELCOME TO TRAVEL BOOKING SYSTEM \n")
