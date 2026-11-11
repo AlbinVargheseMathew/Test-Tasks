@@ -1,29 +1,25 @@
-# Student Marks Management System
-# Create a function called student_report() that:
-# 1. Stores student names and their marks in a dictionary.
-# 2. Calculates the average mark of each student.
-# 3. Finds the student with the highest total marks.
-# 4. Returns the topper's name and total marks as a tuple.
-# 5. Displays students who scored above 80.
+# 1. List – Shopping Items
+# You are creating a shopping list.
 
-# Albin Average: 84.33
-# John Average: 71.67
-# Anu Average: 95.00
-# David Average: 83.00
+# Task:
+# 1. Create a list containing 5 shopping items.
+# 2. Add one more item to the list.
+# 3. Remove one item.
+# 4. Print the final list.
+# 5. Print the total number of items.
 
-# Topper: Anu
-# Total Marks: 285
+# shopping_list = ['Milk', 'Bread', 'Eggs', 'Rice', 'Apple']
 
-# Students scoring above 80:
-# Albin
-# Anu
-# David
+# def add(item):
+#     return shopping_list.append(item)
 
-students = {
-    "Albin": [85, 90, 78],
-    "John": [70, 65, 80],
-    "Anu": [95, 92, 98],
-    "David": [88, 76, 85]
-}
+# def remove(item):
+#     return shopping_list.remove(item)
 
-def student_report(n)
+# add("Banana")
+# remove("Rice")
+
+# print("final list: ", shopping_list)
+# print("Total Items: ", len(shopping_list))
+
+
